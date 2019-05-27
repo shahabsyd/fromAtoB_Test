@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FromAtoB Hobbit Automation Testcases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FrtomAtoB Hobbit testcases(failed)">
+    <classes>
+      <class name="com.AtoB.qa.Test.SearchResultPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchATrip1"/>
+        </methods>
+      </class> <!-- com.AtoB.qa.Test.SearchResultPageTest -->
+      <class name="com.AtoB.qa.Test.HomePageTest">
+        <methods>
+          <include name="searchATrip"/>
+          <include name="init"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.AtoB.qa.Test.HomePageTest -->
+      <class name="com.AtoB.qa.Test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitle"/>
+        </methods>
+      </class> <!-- com.AtoB.qa.Test.LoginPageTest -->
+    </classes>
+  </test> <!-- FrtomAtoB Hobbit testcases(failed) -->
+</suite> <!-- Failed suite [FromAtoB Hobbit Automation Testcases] -->
