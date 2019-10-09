@@ -40,7 +40,7 @@ public class SearchResultPageTest extends TestBase{
 	driver.get("https://donald:vladimir@qa.frombat.net");
 	*/
 		
-		
+    webDriver driver = new WebDriver();
 	driver = initialization();
 	homepage = new HomePage();
 	loginpage = new LoginPage();
